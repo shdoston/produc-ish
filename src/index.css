@@ -1,0 +1,94 @@
+ @import url(https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Livvic', sans-serif;
+};
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+li {
+  list-style: none;
+}
+
+#root {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px 30px;
+}
+
+#container {
+  padding: 20px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: black;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.list-text {
+  font-family: 'Livvic', sans-serif;
+  color: black;
+  margin-bottom: 5px;
+}
+
+li:hover {
+  transform: translateY(-20px);
+  transition: all 0.3s ease;
+}
+
+img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-size: cover;
+}
+
+.Btn {
+  font-family: 'Livvic', sans-serif;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 12px 150px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px black;
+  &:hover {
+    background-color: #2600ff;
+    color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px black;
+  }
+}
+
+.list {
+  list-style: none;
+  background-color: #fff5e1;
+  padding: 20px 20px 30px 30px;
+  border-radius: 12px;
+}
